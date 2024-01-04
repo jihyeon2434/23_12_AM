@@ -28,6 +28,7 @@ public class MemberController extends Controller {
 			break;
 		case "login":
 			if (isLogined()) {
+				
 				System.out.println("이미 로그인 상태야");
 				return;
 			}
